@@ -58,7 +58,7 @@ function animate() {
 	requestAnimationFrame(animate);
 
 	Graphics.clear();
-	for (let i = 0; i < 1; i++) {
+	for (let i = 0; i < 48; i++) {
 		let x = i % 8;
 		if (x > 0) {
 			x = x * 128 + 64;
